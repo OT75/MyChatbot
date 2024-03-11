@@ -10,7 +10,7 @@ For any info about the Ollama API, feel free to check their documentry at: https
 ![image](https://github.com/OT75/MyChatbot/assets/101826309/957dedc4-c415-4968-afdd-66a881a52037)
 ## Features
 
-In our Case I used my custom model that acts as a tourguide here is the response:
+In our Case I used my custom model that acts as a tourguide, here is the response:
 
 ![image](https://github.com/OT75/MyChatbot/assets/101826309/93ed2695-38f6-4148-b142-cf39736de650)
 - User-friendly interface.
