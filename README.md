@@ -7,8 +7,12 @@ MyChatbot is an advanced chat bot application built using the Ollama API.
 MyChatbot allows users to interact with an AI-powered chat bot to generate text-based responses to their prompts. It utilizes a pre-trained language model to provide relevant and context-aware replies.
 For any info about the Ollama API, feel free to check their documentry at: https://github.com/ollama/ollama/blob/main/docs/api.md
 
-## Features
 ![image](https://github.com/OT75/MyChatbot/assets/101826309/957dedc4-c415-4968-afdd-66a881a52037)
+## Features
+
+In our Case I used my custom model that acts as a tourguide here is the response:
+
+![image](https://github.com/OT75/MyChatbot/assets/101826309/93ed2695-38f6-4148-b142-cf39736de650)
 - User-friendly interface.
 - Modern and sleek design.
 - Interaction with a sophisticated language model.
