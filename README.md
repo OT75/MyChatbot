@@ -16,6 +16,7 @@ For any info about the Ollama API, feel free to check their documentry at: https
 
 ## Requirements
 
+- Ollama
 - Python 3.x
 - Tkinter
 - requests
