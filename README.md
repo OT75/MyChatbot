@@ -1,6 +1,6 @@
 # MyChatbot
 
-MyChatbot is an advanced chat bot application built using Python and Tkinter.
+MyChatbot is an advanced chat bot application built using the Ollama API.
 
 ## Overview
 
