@@ -44,7 +44,7 @@ In our Case I used my custom model that acts as a tourguide, here is the respons
 1. Run the application:
 
     ```bash
-    python main.py
+    python ChatbotGUI.py
     ```
 
 2. Enter your prompt in the input field.
@@ -53,7 +53,7 @@ In our Case I used my custom model that acts as a tourguide, here is the respons
 
 ## Configuration
 
-- You can specify the language model used by editing the `model` variable in the `main.py` file.
+- You can specify the language model used by editing the `model` variable in the `ChatbotGUI.py` file.
 
 ## Contributing
 
