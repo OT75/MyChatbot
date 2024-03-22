@@ -57,7 +57,8 @@ class ChatGUI:
             messagebox.showwarning("Warning", "Please enter a prompt.")
 
     def generate(self, prompt, context):
-        r = requests.post('http://localhost:11434/api/generate',
+        r = requests.post('http://213.181.122.2:58154/api/generate',  # TODO: Use ur API HERE wether its private (localhost:11434) or Public
+                                                                      # TODO: Use as follows http://[API URL]/api/generate
                           json={
                               'model': model,
                               'prompt': prompt,
@@ -72,12 +73,14 @@ class ChatGUI:
             response_part = body.get('response', '')
             # Append the response to the generated text
             generated_text += response_part
+            #print(response_part)
 
             if 'error' in body:
                 raise Exception(body['error'])
 
             if body.get('done', False):
-                return generated_text, body['context']  # Return generated text along with updated context
+                return generated_text
+
 
     def add_to_history(self, message):
         # Check if the message starts with "Tourguide:"
