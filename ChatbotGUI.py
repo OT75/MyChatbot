@@ -57,7 +57,7 @@ class ChatGUI:
             messagebox.showwarning("Warning", "Please enter a prompt.")
 
     def generate(self, prompt, context):
-        r = requests.post('http://213.181.122.2:58154/api/generate',  # TODO: Use ur API HERE wether its private (localhost:11434) or Public
+        r = requests.post('[API]/api/generate',  # TODO: Use ur API HERE wether its private (localhost:11434) or Public
                                                                       # TODO: Use as follows http://[API URL]/api/generate
                           json={
                               'model': model,
